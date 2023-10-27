@@ -12,7 +12,7 @@
 }
 
 body{
-   background-color: #010b0e;
+   background-color: #252b2d;
 }
 
 h1{
@@ -24,7 +24,7 @@ h1{
 }
 
 main{
-    background-color: #91f69f;
+    background-color: ##CFCFEA;
     font-family:'Titillium Web', Arial, Helvetica, sans-serif;
     font-size: 17pt;
     font-weight: bold;
@@ -60,9 +60,8 @@ label{
 
 #resultado{
     font-size: 23px;
-    font-style:italic;
     font-weight: bold;
-    padding: 27px;
+    padding: 25px;
     text-align: center;
     line-height: 1em; 
 }
@@ -70,22 +69,15 @@ label{
 .bttn{
     display: inline-flex;
     justify-content: center;
-    align-items: center;
     background-color: #010b0e;
     box-sizing: border-box;
-    color:#fff;
+    color:#ffff;
     width: 140px;
     height: 33px;
-    font-size: 17px;
-    font-family: 'Titillium Web';
+    font-family: 'Titillium Web', Arial;
     line-height: 1em;
     padding: 8px;
     border-radius: 6px;
     position: relative; 
     margin-top: 10px;
-}
-
-.bttn:hover{
-    transform: translateY(-2px);
-    box-shadow: rgba(0, 0, 0, 0.553) 2px 2px 3px
 }
