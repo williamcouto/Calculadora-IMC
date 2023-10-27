@@ -28,12 +28,12 @@ main{
     font-family:'Titillium Web', Arial, Helvetica, sans-serif;
     font-size: 17pt;
     font-weight: bold;
-    height: 400px;
+    height: 390px;
     width: 310px;
     min-width: 250px;
     max-width: 300px;
     border-radius: 18px;
-    padding: 9px;
+    padding: 14px;
     margin: auto;
 }
 
@@ -70,7 +70,6 @@ label{
     display: inline-flex;
     justify-content: center;
     background-color: #010b0e;
-    box-sizing: border-box;
     color:#ffff;
     width: 140px;
     height: 33px;
