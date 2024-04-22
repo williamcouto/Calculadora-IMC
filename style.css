@@ -19,12 +19,12 @@ h1{
 
 .container{
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     font-family:'Titillium Web', Arial, Helvetica, sans-serif;
-    font-size: 17pt;
     background-color: #ffff;
-    height: 270px;
-    width: 450px;
+    height: 280px;
+    width: 310px;
     margin: auto;
     border-radius: 18px;
     box-shadow: -3px 3px 10px -1px rgba(0,0,0,0.28);
@@ -32,11 +32,10 @@ h1{
 }
 
 input{
-    width: 160px;
+    width: 120px;
     height: 13px;
     border-radius: 4px; 
-    padding: 6px;
-    font-size: 15px;  
+    padding: 6px; 
     border: 1px solid rgb(64, 63, 63);
 }
 
@@ -47,10 +46,9 @@ label{
 }
 
 #resultado{
-    font-size: 23px;
+    font-size: 1.2em;
     font-weight: bold;
-    padding: 25px;
-    text-align: center;
+    padding: 20px;
     line-height: 1em; 
 }
 
@@ -58,11 +56,11 @@ label{
     font-family: 'Titillium Web', arial, Helvetica, sans-serif;
     background-color: #0D21A1;
     color:#ffff;
-    width: 100%;
-    height: 30px;
+    width: 110px;
+    height: 27px;
     border: none;
     line-height: 1em;
-    padding: 8px;
-    position: relative; 
+    cursor: pointer;
+    padding: 6px;
     margin-top: 20px;
 }
