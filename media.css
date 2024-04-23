@@ -1,0 +1,26 @@
+/* Celulares */
+
+@media screen and (min-width:320px) and (max-width:780px) {
+
+    h1{
+        font-size: 2em;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 240px;
+        height: 370px;
+    }
+
+    #result_IMC{
+        margin-top: 25px;
+        letter-spacing: 2px;
+    }
+
+    .bttn{
+        width: 130px;
+        height: 35px;
+    }
+}
