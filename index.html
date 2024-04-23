@@ -13,11 +13,12 @@
     <main>
         <section>
         <div class="container">
-            <label>Peso:</label>
-                <input type="number" name="peso_usuario" id="peso_usuario">
-            <label>Altura:</label>
-                <input type="number" name="altura_usuario" id="altura_usuario">
-                <input class="bttn" type="button" value="CALCULAR" onclick="CalculaIMC()">
+            <label for="peso_usuario">Peso:</label>
+            <input type="number" name="peso_usuario" id="peso_usuario">
+            <label for="altura_usuario">Altura:</label>
+            <input type="number" name="altura_usuario" id="altura_usuario">
+            <input class="bttn" type="button" value="CALCULAR" onclick="CalculaIMC()">
+            <div id="result_IMC"></div>
             <div id="resultado"></div>
         </div>
         </section>
